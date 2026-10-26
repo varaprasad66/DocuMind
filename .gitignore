@@ -147,3 +147,13 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Environments and secrets
+.env
+.env.local
+.env.*.local
+
+# Package manager files & caches
+.npm/
+.yarn/
+.pnpm-store/
